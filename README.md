@@ -11,3 +11,7 @@ var http = reqiure('http');
    res.write('Hello World!');
    res.end();
  }).listen(8000);
+http.createServer(function (req,res){
+   res.write('Hello World!');
+   res.end();
+ }).listen
